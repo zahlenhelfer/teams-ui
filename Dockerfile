@@ -1,5 +1,7 @@
 # Dockerfile
+<<<<<<< HEAD
 FROM node:18-alpine AS build
+>>>>>>> 8be974a71c0fdff12db3e81ec8f79d4611658bba
 
 WORKDIR /app
 

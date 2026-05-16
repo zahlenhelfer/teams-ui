@@ -8,5 +8,4 @@ export const environment = {
     realm: "teams",
     clientId: "teams-ui",
   },
-
 };

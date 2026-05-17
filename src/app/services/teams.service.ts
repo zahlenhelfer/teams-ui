@@ -10,7 +10,7 @@ import { AuthService } from './auth.service';
   providedIn: 'root'
 })
 export class TeamsService {
-  private apiUrl = environment.apiUrl;
+  private apiUrl = window.__env?.apiUrl ?? environment.apiUrl;
 
   constructor(
     private http: HttpClient,
